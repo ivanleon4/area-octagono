@@ -1,0 +1,80 @@
+@import url(CSS/bar.css);
+
+*{
+    box-sizing: border-box;
+
+}
+
+body{
+    margin:  0 0 0 0;
+    font-family: sans-serif;
+     background-image: url("../img/matematica.jpg");
+}
+.title{
+    text-align: left;
+    margin-top: 30px;
+    margin-left: 30px;
+    color: white;
+}
+.title2{
+    text-align: left;
+    margin-top: -15px;
+    margin-left: 30px;
+    color:white;
+}
+.header {
+    color: #36A0FF;
+    font-size: 27px;
+    padding: 10px;
+}
+
+.bigicon {
+    font-size: 35px;
+    color: #36A0FF;
+}
+.select{
+    color: rgb(252, 252, 252);
+    background-color: rgb(49, 49, 49);
+    width: 100px;
+    margin-top: -50px;
+}
+.btn{
+    margin-left:4px;
+    margin-right: 2px;
+}
+.formulario{
+    background-color: rgb(71, 70, 70);
+    width: 400px;
+    max-width:  50%;
+    margin-top: 50px;
+    margin-left: 250px;
+    padding: 10px;
+    border-radius: 30px 30px 0px 0px;
+    -moz-border-radius: 30px 30px 0px 0px;
+    -webkit-border-radius: 30px 30px 30px 30px;
+}
+.formulario2{
+    background-color: rgb(71, 70, 70);
+    width: 400px;
+    max-width:  50%;
+    margin-top: 50px;
+    margin-left: 250px;
+    padding: 10px;
+    border-radius: 30px 30px 0px 0px;
+    -moz-border-radius: 30px 30px 0px 0px;
+    -webkit-border-radius: 30px 30px 30px 30px;
+}
+.formula{
+    float: right;
+    margin-right: 20px;
+    margin-top: -15px;
+}
+
+.error{
+    text-align: center;
+    margin-left: 20px;
+    margin-top: 10;
+    color: rgb(0, 0, 0)(0, 0, 0);
+    z-index:0;
+    font-size:20px;
+}
